@@ -28,11 +28,11 @@ A在最新的版本上进行了自己的修改,并且已经push到upstream仓库
 
 ##### 1 、 fork别人的仓库到自己的GitHub
 
-![1](/Users/easemob/Desktop/1.png)
+![1](https://github.com/tcc123/armory/blob/master/git/images/1.png)
 
 ##### 2、将fork到的仓库clone到本地local
 
-![2](/Users/easemob/Desktop/2.png)
+![2](https://github.com/tcc123/armory/blob/master/git/images/2.png)
 
 #### 同步更新代码
 
@@ -47,7 +47,7 @@ $ git rebase upstream/master
 
 ##### 4、A在本地对代码进行修改之后，在SmartGit进行commit提交操作，然后push到自己的origin仓库
 
-![3](/Users/easemob/Desktop/3.png)
+![3](https://github.com/tcc123/armory/blob/master/git/images/3.png)
 
 ```
 $ git push origin master
@@ -55,11 +55,11 @@ $ git push origin master
 
 ##### 5、去GitHub提pr
 
-![4](/Users/easemob/Desktop/4.png)
+![4](https://github.com/tcc123/armory/blob/master/git/images/4.png)
 
-![5](/Users/easemob/Desktop/5.png)
+![5](https://github.com/tcc123/armory/blob/master/git/images/5.png)
 
-![6](/Users/easemob/Desktop/6.png)
+![6](https://github.com/tcc123/armory/blob/master/git/images/6.png)
 
 到此就已经完成了所有操作，如果原作者同意你的pr申请，你就成功的对upstream的代码进行了修改
 
