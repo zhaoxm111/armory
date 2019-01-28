@@ -20,7 +20,7 @@ A在最新的版本上进行了自己的修改,并且已经push到upstream仓库
 
 ###图形详解
 
-![0](/Users/easemob/Desktop/0.png)
+![0](https://github.com/tcc123/armory/blob/master/git/images/0.png)
 
 ###实际操作
 
