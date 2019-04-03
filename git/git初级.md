@@ -55,11 +55,11 @@ $ git commit -m <message>     //把文件提交到版本库
 
 **reset适用场景：** 如果想恢复到之前某个提交的版本，且那个版本之后提交的版本我们都不要了，就可以用这种方法。
 
-![image-20190312143242174](/Users/easemob/armory/git/images/image-20190312143242174.png)
+![image-20190312143242174](https://github.com/tcc123/armory/blob/master/git/images/image-20190312143242174.png)
 
 **revert适用场景：** 如果我们想恢复之前的某一版本，但是又想保留该目标版本后面的版本，记录下这整个版本变动流程，就可以用这种方法。
 
-![image-20190312143307012](/Users/easemob/armory/git/images/image-20190312143307012.png)
+![image-20190312143307012](https://github.com/tcc123/armory/blob/master/git/images/image-20190312143307012.png)
 
 1. git revert是用一次新的commit来回滚之前的commit，git reset是直接删
 
@@ -74,6 +74,6 @@ $ git commit -m <message>     //把文件提交到版本库
 - （一股脑）使用`merge`命令合并分支，解决完冲突，执行`git add .`和`git commit -m'******'`。这个时候会产生一个commit。
 - （交互式）使用`rebase`命令合并分支，解决完冲突，执行`git add .`和`git rebase --continue`，不会产生额外的commit。这样的好处是，‘干净’，分支上不会有无意义的解决分支的commit；坏处，如果合并的分支中存在多个`commit`，需要重复处理多次冲突。
 
-![marge](/Users/easemob/armory/git/images/marge.jpg)
+![marge](https://github.com/tcc123/armory/blob/master/git/images/marge.jpg)
 
-![rebase](/Users/easemob/armory/git/images/rebase.jpg)
+![rebase](https://github.com/tcc123/armory/blob/master/git/images/rebase.jpg>)
