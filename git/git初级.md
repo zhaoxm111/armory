@@ -76,4 +76,4 @@ $ git commit -m <message>     //把文件提交到版本库
 
 ![marge](https://github.com/tcc123/armory/blob/master/git/images/marge.jpg)
 
-![rebase](https://github.com/tcc123/armory/blob/master/git/images/rebase.jpg>)
+![rebase](https://github.com/tcc123/armory/blob/master/git/images/rebase.jpg)
